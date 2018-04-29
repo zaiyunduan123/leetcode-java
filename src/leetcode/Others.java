@@ -1,6 +1,4 @@
-package 并查集;
-
-import org.junit.Test;
+package leetcode;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -197,6 +195,8 @@ public class Others {
          }
          return false;
     }
+
+
     public static void main(String[] args) {
         Others o = new Others();
 //        int[] g = {1, 2};

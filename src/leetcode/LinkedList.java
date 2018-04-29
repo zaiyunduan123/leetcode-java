@@ -1,4 +1,4 @@
-package 并查集;
+package leetcode;
 
 
 /**
