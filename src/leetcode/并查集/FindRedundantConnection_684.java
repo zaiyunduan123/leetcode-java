@@ -1,5 +1,7 @@
 package leetcode.并查集;
 
+import leetcode.并查集.common.UF;
+
 /**
  * 684. 冗余连接
  题目描述提示帮助提交记录社区讨论阅读解答
@@ -29,7 +31,7 @@ package leetcode.并查集;
  |   |
  4 - 3
  */
-public class UnionFind {
+public class FindRedundantConnection_684 {
 
     public int[] findRedundantConnection(int[][] edges) {
         int N = edges.length;
@@ -45,37 +47,9 @@ public class UnionFind {
     }
 
     public static void main(String[] args) {
-        UnionFind uf = new UnionFind();
+        FindRedundantConnection_684 uf = new FindRedundantConnection_684();
         int[][] edges = {{1,2}, {1,3}, {2,3}};
         System.out.println(uf.findRedundantConnection(edges));
     }
 }
 
-class UF {
-    int[] id;
-
-    //初始化
-    UF(int N) {
-        id = new int[N + 1];
-        for(int i = 0;i < id.length; i++){
-            id[i] = i;
-        }
-    }
-
-    void union(int u, int v){
-        int uID = find(u);
-        int vID = find(v);
-        if (uID == vID){
-            return;
-        }
-        for (int i = 0;i < id.length;i++){
-            if(id[i] == uID){
-                id[i] = vID;
-            }
-        }
-    }
-
-    int find(int p){
-        return id[p];
-    }
-}
