@@ -7,14 +7,14 @@ public class UF {
     int[] id;
 
     //初始化
-    UF(int N) {
+    public UF(int N) {
         id = new int[N + 1];
         for(int i = 0;i < id.length; i++){
             id[i] = i;
         }
     }
 
-    void union(int u, int v){
+    public void union(int u, int v){
         int uID = find(u);
         int vID = find(v);
         if (uID == vID){
@@ -27,7 +27,7 @@ public class UF {
         }
     }
 
-    int find(int p){
+    public int find(int p){
         return id[p];
     }
 }
