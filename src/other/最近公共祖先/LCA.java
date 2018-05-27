@@ -32,12 +32,37 @@ public class LCA {
         }
 
         while(true){
+            //如果t小于u、v，往t的右子树中查找
             if (t.val < left){
                 t = t.right;
+            //如果t大于u、v，往t的左子树中查找
             }else if(t.val > right){
                 t = t.left;
             }
             return t.val;
         }
+    }
+
+    /**
+     * 1.2、不是二叉查找树
+     */
+    public TreeNode getLCA(TreeNode t, TreeNode u, TreeNode v){
+        if (t == null)
+            return null;
+        if(t == u || t == v)
+            return null;
+        TreeNode left = getLCA(t.left, u, v);
+        TreeNode right = getLCA(t.right, u, v);
+
+        //u 和 v 不存在祖先关系
+        if(left != null && right != null)
+            return t;
+        //u 和 v 其中一个是另一个的祖先
+        else if (left != null)
+            return left;
+        else if (right != null)
+            return right;
+        else
+            return null;
     }
 }
