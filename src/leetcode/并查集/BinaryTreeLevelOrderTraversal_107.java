@@ -8,7 +8,7 @@ import java.util.List;
  * @Author jiangyunxiong
  * @Date 2018/12/31 下午3:19
  */
-public class BinaryTreeLevelOrderTraversal {
+public class BinaryTreeLevelOrderTraversal_107 {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> wrapList = new LinkedList<List<Integer>>();
         levelMaker(wrapList, root, 0);

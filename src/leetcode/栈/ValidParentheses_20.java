@@ -1,4 +1,4 @@
-package leetcode.easy;
+package leetcode.栈;
 
 import org.junit.Test;
 
@@ -7,6 +7,8 @@ import java.util.Stack;
 /**
  * @Author jiangyunxiong
  * @Date 2018/12/27 下午9:53
+ *
+ * 判断括号是否合法
  */
 public class ValidParentheses_20 {
 

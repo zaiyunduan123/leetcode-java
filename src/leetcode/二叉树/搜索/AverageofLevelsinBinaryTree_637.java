@@ -1,4 +1,4 @@
-package leetcode.easy;
+package leetcode.二叉树.搜索;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
