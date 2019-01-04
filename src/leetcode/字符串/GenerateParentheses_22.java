@@ -4,22 +4,11 @@ import java.util.ArrayList;
 
 /**
  * Created by jiangyunxiong on 2018/5/3.
+ *
+ * 括号生成
  */
 public class GenerateParentheses_22 {
-    /**
-     * 22. 括号生成
-     * Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
-     * <p>
-     * For example, given n = 3, a solution set is:
-     * <p>
-     * [
-     * "((()))",
-     * "(()())",
-     * "(())()",
-     * "()(())",
-     * "()()()"
-     * ]
-     */
+
     ArrayList<String> r = new ArrayList<>();
 
     public ArrayList<String> generateParenthesis(int n) {

@@ -3,6 +3,8 @@ package leetcode.二分查找;
 /**
  * @Author jiangyunxiong
  * @Date 2018/12/30 下午7:53
+ *
+ * 猜数字大小
  */
 public class GuessNumberHigherorLower_374 {
 

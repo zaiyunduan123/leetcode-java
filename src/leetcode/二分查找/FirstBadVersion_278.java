@@ -3,6 +3,8 @@ package leetcode.二分查找;
 /**
  * @Author jiangyunxiong
  * @Date 2018/12/30 下午3:01
+ *
+ *  第一个错误的版本
  */
 public class FirstBadVersion_278 {
 

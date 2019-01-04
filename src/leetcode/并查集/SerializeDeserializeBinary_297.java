@@ -7,6 +7,8 @@ import java.util.LinkedList;
 /**
  * @Author jiangyunxiong
  * @Date 2018/12/31 下午4:03
+ *
+ * 二叉树的序列化与反序列化
  */
 public class SerializeDeserializeBinary_297 {
 

@@ -3,6 +3,8 @@ package leetcode.并查集;
 /**
  * @Author jiangyunxiong
  * @Date 2018/12/31 上午9:53
+ *
+ * 路径总和
  */
 public class PathSum_112 {
     class TreeNode {

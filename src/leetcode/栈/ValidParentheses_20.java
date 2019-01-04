@@ -1,6 +1,5 @@
 package leetcode.栈;
 
-import org.junit.Test;
 
 import java.util.Stack;
 
@@ -11,12 +10,6 @@ import java.util.Stack;
  * 判断括号是否合法
  */
 public class ValidParentheses_20 {
-
-    @Test
-    public void test() {
-        isValid("()[]{}");
-    }
-
 
     public boolean isValid(String s) {
         char[] chars = s.toCharArray();

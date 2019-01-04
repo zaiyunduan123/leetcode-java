@@ -6,6 +6,8 @@ import java.util.List;
 /**
  * @Author jiangyunxiong
  * @Date 2018/12/29 下午11:23
+ *
+ * 二进制手表
  */
 public class BinaryWatch_401 {
     public List<String> readBinaryWatch(int num) {

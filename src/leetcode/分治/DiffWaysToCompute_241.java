@@ -8,15 +8,6 @@ import java.util.List;
  * @Date 2018/12/20 下午11:24
  *
  * 给表达式加括号
- *
- * 241. Different Ways to Add Parentheses (Medium)
- *
- * Input: "2-1-1".
- *
- * ((2-1)-1) = 0
- * (2-(1-1)) = 2
- *
- * Output : [0, 2]
  */
 public class DiffWaysToCompute_241 {
 

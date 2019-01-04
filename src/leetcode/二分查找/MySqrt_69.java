@@ -2,6 +2,8 @@ package leetcode.二分查找;
 
 /**
  * Created by jiangyunxiong on 2018/5/2.
+ *
+ *  x 的平方根
  */
 public class MySqrt_69 {
 
