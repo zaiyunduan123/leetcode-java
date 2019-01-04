@@ -1,11 +1,9 @@
-package 八大排序;
+package leetcode.排序.八大排序;
 
 /**
- * Created by jiangyunxiong on 2018/5/27.
- */
-
-/**
- * 归并排序
+ * @Auther: Jesper
+ * @Date: 2019/1/4 14:17
+ * @Description: 归并排序
  * <p>
  * 归并排序的思想是将数组分成两部分，分别进行排序，然后归并起来。
  */

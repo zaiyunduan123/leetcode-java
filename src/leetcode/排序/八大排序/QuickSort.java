@@ -1,15 +1,15 @@
-package 八大排序;
+package leetcode.排序.八大排序;
 
 /**
- * Created by jiangyunxiong on 2018/5/27.
+ * @Auther: Jesper
+ * @Date: 2019/1/4 14:17
+ * @Description: 快速排序
+ * <p>
+ * 快速排序通过一个基准元素将数组分为两个子数组，左子数组小于等于基准元素，右子数组大于等于基准元素，将这两个子数组排序也就将整个数组排序了。
  */
 public class QuickSort extends Base {
 
-    /**
-     * 快速排序
-     * <p>
-     * 快速排序通过一个基准元素将数组分为两个子数组，左子数组小于等于基准元素，右子数组大于等于基准元素，将这两个子数组排序也就将整个数组排序了。
-     */
+
     public static void sort(int[] a) {
         sort(a, 0, a.length - 1);
     }

@@ -1,7 +1,9 @@
-package 八大排序;
+package leetcode.排序.八大排序;
 
 /**
- * Created by jiangyunxiong on 2018/5/27.
+ * @Auther: Jesper
+ * @Date: 2019/1/4 14:16
+ * @Description:
  */
 public class Base {
 
