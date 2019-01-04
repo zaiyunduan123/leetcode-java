@@ -1,6 +1,5 @@
 package 链表;
 
-import 链表.common.ListNode;
 
 /**
  * @Author jiangyunxiong
@@ -15,5 +14,15 @@ public class SwapNodesinPairs_24 {
         head.next = swapPairs(temp.next);
         temp.next = head;
         return temp;
+    }
+
+    class ListNode {
+        public int val;
+        public ListNode next;
+
+        public ListNode(int x) {
+            val = x;
+            next = null;
+        }
     }
 }

@@ -1,6 +1,5 @@
 package 链表;
 
-import 链表.common.ListNode;
 
 /**
  * Created by jiangyunxiong on 2018/5/2.
@@ -32,5 +31,15 @@ public class ReverseList_77 {
             head = next;
         }
         return newHead.next;
+    }
+
+    class ListNode {
+        public int val;
+        public ListNode next;
+
+        public ListNode(int x) {
+            val = x;
+            next = null;
+        }
     }
 }

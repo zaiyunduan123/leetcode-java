@@ -1,6 +1,5 @@
 package 链表;
 
-import 链表.common.ListNode;
 
 /**
  * Created by jiangyunxiong on 2018/5/2.
@@ -21,5 +20,15 @@ public class GetIntersectionNode_160 {
             l2 = (l2 == null) ? headA : l2.next;
         }
         return l1;
+    }
+
+    class ListNode {
+        public int val;
+        public ListNode next;
+
+        public ListNode(int x) {
+            val = x;
+            next = null;
+        }
     }
 }
