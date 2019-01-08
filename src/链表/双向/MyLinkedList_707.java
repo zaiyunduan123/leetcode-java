@@ -1,4 +1,4 @@
-package 链表;
+package 链表.双向;
 
 /**
  * @Author jiangyunxiong

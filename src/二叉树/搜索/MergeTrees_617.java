@@ -1,4 +1,4 @@
-package 二叉树.性质;
+package 二叉树.搜索;
 
 /**
  * @Author jiangyunxiong

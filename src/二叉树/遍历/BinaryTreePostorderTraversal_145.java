@@ -11,7 +11,7 @@ import java.util.Stack;
  *
  * 二叉树后序遍历
  */
-public class BinaryTreePostorderTraversal {
+public class BinaryTreePostorderTraversal_145 {
 
     class TreeNode {
         int val;
