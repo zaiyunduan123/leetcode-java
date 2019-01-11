@@ -8,10 +8,9 @@ import java.util.Queue;
 /**
  * @Author jiangyunxiong
  * @Date 2019/1/2 下午10:32
- * <p>
+ *
  * 二叉树的层序遍历(从下到上)
  *
- * 思路：只要在普通的层序遍历代码中修改一处：results.add(0, level);，这样每次头插到结果中。
  */
 public class BinaryTreeLevelOrderTraversalII_107 {
     class TreeNode {
@@ -24,6 +23,9 @@ public class BinaryTreeLevelOrderTraversalII_107 {
         }
     }
 
+    /**
+     * 思路：只要在普通的层序遍历代码中修改一处：results.add(0, level);，这样每次头插到结果中。
+     */
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
         if (root == null) return res;

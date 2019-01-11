@@ -11,7 +11,6 @@ import java.util.Queue;
  *
  * 题目：返回二叉树每层的最右边节点的值
  *
- * 思路：每次把每层的最右边一个节点的值添加到results中
  */
 public class BinaryTreeRightSideView_199 {
     class TreeNode {

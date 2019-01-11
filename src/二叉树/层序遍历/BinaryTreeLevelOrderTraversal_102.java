@@ -8,10 +8,10 @@ import java.util.Queue;
 /**
  * @Author jiangyunxiong
  * @Date 2019/1/2 下午10:28
- * <p>
+ *
  * 二叉树的层序遍历(从上到下)
  *
- * 基础模版代码，其他各种各样的层序搜索题都是本题的变种，稍微在本题代码上修改一下即可
+ * 基础模版代码，其他各种各样的层序搜索题都是本题的变种，稍微在本题代码基础上修改一下即可
  */
 public class BinaryTreeLevelOrderTraversal_102 {
     class TreeNode {

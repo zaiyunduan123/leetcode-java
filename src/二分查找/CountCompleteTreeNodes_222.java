@@ -18,6 +18,8 @@ public class CountCompleteTreeNodes_222 {
     }
 
     /**
+     * 时间复杂度：O(log(n)^2)
+     *
      * 思路：
      * 完全二叉数的高度可以通过不断地访问左子树就可以获取
      * 判断左右子树的高度
@@ -42,7 +44,7 @@ public class CountCompleteTreeNodes_222 {
         }
     }
 
-    //通过不断地访问左子树就可以获取高度
+    //通过不断地访问左子树就可以获取高度，O(log(n))
     int height(TreeNode root) {
         int depth = 0;
         while (root != null) {

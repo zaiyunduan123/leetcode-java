@@ -20,6 +20,10 @@ public class AddOneRowtoTree_623 {
         TreeNode(int x) { val = x; }
     }
 
+    /**
+     * 思路：层序遍历，每遍历完一行，d减一，当d==1时，就到了需要增加行的深度位置，
+     * 然后新建值为v的左右子结点，作为原结点的新左右子结点，将原有的左子结点连到新建的左子结点的左子结点上，将原有的右子结点连到新建的右子结点的右子结点
+     */
     public TreeNode addOneRow(TreeNode root, int v, int d) {
         if(root == null) return null;
         if(d == 1){

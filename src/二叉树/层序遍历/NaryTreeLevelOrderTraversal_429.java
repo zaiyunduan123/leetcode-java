@@ -7,7 +7,7 @@ import java.util.Queue;
 /**
  * @Author jiangyunxiong
  * @Date 2018/12/23 下午8:38
- * <p>
+ *
  * N叉树的层序遍历
  */
 public class NaryTreeLevelOrderTraversal_429 {

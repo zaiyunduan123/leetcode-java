@@ -13,6 +13,7 @@ public class LowestCommonAncestorofBinaryTree_236 {
         TreeNode right;
         TreeNode(int x) { val = x; }
     }
+
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if(root == null) return null;
         if(p == root || q == root) return root;

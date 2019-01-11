@@ -8,6 +8,10 @@ package 二分查找;
  */
 public class FindPeakElement_162 {
 
+    /**
+     * 时间复杂度：O(log2n)
+     * 思路：二分查找，如果mid在波峰的递增部分，那么l=mid+1，如果mid在波峰的递减部分，r=mid, 当l=r时，也就是mid在波峰，那么返回
+     */
     public int findPeakElement(int[] nums) {
         if (nums == null || nums.length == 1) {
             return nums == null || nums.length == 0 ? -1 : 0;
