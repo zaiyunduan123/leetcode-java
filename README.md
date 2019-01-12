@@ -70,6 +70,12 @@
 - [[72]  Edit Distance](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/TwoSequencesDP/EditDistance_72.java)
 - [[77]  Combinations](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/TwoSequencesDP/LongestCommonSubsequence_77.java)
 
+### 背包问题
+- [[416] Partition Equal Subset Sum](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/背包问题/PartitionEqualSubsetSum_416.java)
+- [[322] Coin Change](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/背包问题/CoinChange_322.java)
+
+
+
 ## 双指针
 - [[633]  Sum of Square Numbers ](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8F%8C%E6%8C%87%E9%92%88/JudgeSquareSum_633.java)
 
