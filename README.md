@@ -187,5 +187,9 @@
 
 
 
+## kSum
+- [[1]  Two Sum](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/kSum/TwoSum_1.java)
+- [[15]  3Sum](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/kSum/ThreeSum_15.java)
+- [[16]  3Sum Closest](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/kSum/ThreeSumClosest_16.java)
 
 
