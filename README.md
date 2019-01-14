@@ -13,7 +13,9 @@
 - [[35]   Search Insert Position](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/SearchInsertPosition_35.java)
 - [[540]  Single Element in a Sorted Array](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/SingleNonDuplicate_540.java)
 - [[454]  4Sum II](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/Sum4_454.java)
-
+- [[33]  Search in Rotated Sorted Array](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/SearchRotatedSortedArray_33.java)
+- [[81]  Search in Rotated Sorted Array II](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/SearchinRotatedSortedArrayII_81.java)
+   
 ## 二叉树
 
 ### 二叉树的遍历
@@ -42,6 +44,10 @@
 - [[530]  Minimum Absolute Difference in BST](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%90%9C%E7%B4%A2/MinimumAbsoluteDifferenceinBST_530.java)
 - [[116]  Populating Next Right Pointers in Each Node](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%90%9C%E7%B4%A2/PopulatingNextRightPointersinEachNode_116.java)
 - [[700]  Search in a Binary Search Tree](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%90%9C%E7%B4%A2/SearchBST_700.java)
+
+### 二叉树的构造
+- [[108]  Convert Sorted Array to Binary Search Tree](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/构造/ConvertSortedArrayBinarySearchTree_108.java)
+
 
 ### 二叉树的性质
 - [[669]  Trim a Binary Search Tree](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%80%A7%E8%B4%A8/TrimBinarySearchTree_669.java)
