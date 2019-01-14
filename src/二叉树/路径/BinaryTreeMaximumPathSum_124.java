@@ -7,9 +7,7 @@ package 二叉树.路径;
  * <p>
  * 2个结点之间的最长路径
  *
- * 1、前序遍历
- * 2、求根结点到所有叶子结点的pathsum，遍历整颗树
- * 3、求根结点到叶子结点的最大深度
+ *
  */
 public class BinaryTreeMaximumPathSum_124 {
 
@@ -21,6 +19,11 @@ public class BinaryTreeMaximumPathSum_124 {
         return ans;
     }
 
+    /**
+     * 1、前序遍历
+     * 2、求根结点到所有叶子结点的pathsum，遍历整颗树
+     * 3、求根结点到叶子结点的最大深度
+     */
     public int maxDeep(TreeNode root) {
         if (root == null) return 0;
         //叶子结点

@@ -7,31 +7,16 @@ import java.util.Comparator;
  * @Author jiangyunxiong
  * @Date 2018/12/20 下午10:04
  *
- *  435. 不重叠的区间个数
- *
- * Input: [ [1,2], [1,2], [1,2] ]
- *
- * Output: 2
- *
- * Explanation: You need to remove two [1,2] to make the rest of intervals non-overlapping.
- * Input: [ [1,2], [2,3] ]
- *
- * Output: 0
- *
- * Explanation: You don't need to remove any of the intervals since they're already non-overlapping.
- * 题目描述：计算让一组区间不重叠所需要移除的区间个数。
- *
- * 先计算最多能组成的不重叠区间个数，然后用区间总个数减去不重叠区间的个数。
- *
- * 在每次选择中，区间的结尾最为重要，选择的区间结尾越小，留给后面的区间的空间越大，那么后面能够选择的区间个数也就越大。
- *
- * 按区间的结尾进行排序，每次选择结尾最小，并且和前一个区间不重叠的区间。
+ * 不重叠的区间个数
  */
-
-
-
 public class NonOverlappingIntervals_435 {
 
+    /**
+     * 思路：
+     * 先计算最多能组成的不重叠区间个数，然后用区间总个数减去不重叠区间的个数。
+     * 在每次选择中，区间的结尾最为重要，选择的区间结尾越小，留给后面的区间的空间越大，那么后面能够选择的区间个数也就越大。
+     * 按区间的结尾进行排序，每次选择结尾最小，并且和前一个区间不重叠的区间。
+     */
     public int eraseOverlapIntervals(Interval[] intervals) {
 
         if (intervals.length == 0) {

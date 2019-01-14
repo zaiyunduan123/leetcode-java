@@ -7,8 +7,6 @@ import java.util.Stack;
  * @Date 2019/1/2 下午10:03
  *
  * 二叉树前序遍历
- *
- * 思路：用一个栈来实现，由于遍历过程中要先访问树的左子树，而后右子树，所以实现的时候先把根节点的右孩子入栈，而后是左孩子。
  */
 public class BinaryTreePreorderTraversal_144 {
     class TreeNode {
@@ -21,6 +19,9 @@ public class BinaryTreePreorderTraversal_144 {
         }
     }
 
+    /**
+     * 思路：用一个栈来实现，由于遍历过程中要先访问树的左子树，而后右子树，所以实现的时候先把根节点的右孩子入栈，而后是左孩子。
+     */
     public List<Integer> preorderTraversal(TreeNode root) {
 
         List<Integer> result = new ArrayList<Integer>();

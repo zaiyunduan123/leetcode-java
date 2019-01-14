@@ -6,28 +6,11 @@ import java.util.List;
 
 /**
  * Created by jiangyunxiong on 2018/5/2.
+ *
+ * 根据身高重建队列
  */
 public class ReconstructQueue_406 {
-    /**
-     * 406. 根据身高重建队列
-     * 题目描述提示帮助提交记录社区讨论阅读解答
-     * 随机一题
-     * 假设有打乱顺序的一群人站成一个队列。 每个人由一个整数对(h, k)表示，其中h是这个人的身高，k是排在这个人前面且身高大于或等于h的人数。 编写一个算法来重建这个队列。
-     * <p>
-     * 注意：
-     * 总人数少于1100人。
-     * <p>
-     * 示例
-     * <p>
-     * 输入:
-     * [[7,0], [4,4], [7,1], [5,0], [6,1], [5,2]]
-     * <p>
-     * 输出:
-     * [[5,0], [7,0], [5,2], [6,1], [4,4], [7,1]]
-     *
-     * @param people
-     * @return
-     */
+
     public int[][] reconstructQueue(int[][] people) {
         if (people == null || people.length == 0 || people[0].length == 0) return new int[0][0];
         //身高降序、k 值升序
