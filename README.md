@@ -1,5 +1,41 @@
 # LeetCode of algorithms with Java solution
 
+- [二分查找](#二分查找)
+- [双指针](#双指针)
+- [kSum](#kSum)
+- [哈希表](#哈希表)
+- [字典树](#字典树)
+- [字符串](#字符串)
+- [尺取法](#尺取法)
+- [并查集](#并查集)
+- [排序](#排序)
+- [数学](#数学)
+- [数组](#数组)
+- [栈](#栈)
+- [链表](#链表)
+  - [链表删除](#链表删除)
+  - [链表反转](#链表反转)
+  - [链表合并](#链表合并)
+  - [双向链表](#双向链表)
+- [二叉树](#二叉树)
+  - [二叉树的遍历](#二叉树的遍历)
+  - [二叉树的层序遍历](#二叉树的层序遍历)
+  - [二叉树的路径](#二叉树的路径)
+  - [二叉树的搜索](#二叉树的搜索)
+  - [二叉树的构造](#二叉树的构造)
+  - [二叉树的性质](#二叉树的性质)
+- [深度优先搜索](#深度优先搜索)
+- [贪心](#贪心)
+- [回溯](#回溯)
+- [分治](#分治)
+- [动态规划](#动态规划)
+  - [GameDP](#GameDP)
+  - [MatrixDP](#MatrixDP)
+  - [SequenceDP](#SequenceDP)
+  - [TwoSequenceDP](#TwoSequenceDP)
+  - [背包问题](#背包问题)
+
+
 ## 二分查找
 - [[704]  Binary Search](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/BinarySearch_704.java)
 - [[441]  Arranging Coins](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/ArrangeCoins_441.java)
@@ -16,74 +52,17 @@
 - [[33]  Search in Rotated Sorted Array](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/SearchRotatedSortedArray_33.java)
 - [[81]  Search in Rotated Sorted Array II](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/SearchinRotatedSortedArrayII_81.java)
    
-## 二叉树
-
-### 二叉树的遍历
-- [[144]  Binary Tree Preorder Traversal](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E9%81%8D%E5%8E%86/BinaryTreePreorderTraversal_144.java)
-- [[94]  Binary Tree Inorder Traversal](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E9%81%8D%E5%8E%86/BinaryTreeInorderTraversal_94.java)
-- [[145]  Binary Tree Postorder Traversal](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E9%81%8D%E5%8E%86/BinaryTreePostorderTraversal_145.java)
-
-### 二叉树的层序遍历
-- [[102]  Binary Tree Level Order Traversal](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86/BinaryTreeLevelOrderTraversal_102.java)
-- [[107]  Binary Tree Level Order Traversal II](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86/BinaryTreeLevelOrderTraversalII_107.java)
-- [[103]  Binary Tree Zigzag Level Order Traversal](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86/BinaryTreeZigzagLevelOrderTraversal_103.java)
-- [[429]  N-ary Tree Level Order Traversal](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86/NaryTreeLevelOrderTraversal_429.java)
-
-### 二叉树的路径
-- [[124]  Binary Tree Maximum Path Sum](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E8%B7%AF%E5%BE%84/BinaryTreeMaximumPathSum_124.java)
-
-### 二叉树的搜索
-
-- [[623]  Add One Row to Tree](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%90%9C%E7%B4%A2/AddOneRowtoTree_623.java)
-- [[637]  Average of Levels in Binary Tree](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%90%9C%E7%B4%A2/AverageofLevelsinBinaryTree_637.java)
-- [[199]  Binary Tree Right Side View](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%90%9C%E7%B4%A2/BinaryTreeRightSideView_199.java)
-- [[513]  Find Bottom Left Tree Value](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%90%9C%E7%B4%A2/FindBottomLeftTreeValue_513.java)
-- [[515]  Find Largest Value in Each Tree Row](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%90%9C%E7%B4%A2/FindLargestValueinEachTreeRow_515.java)
-- [[236]  Lowest Common Ancestor of a Binary Tree](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%90%9C%E7%B4%A2/LowestCommonAncestorofBinaryTree_236.java)
-- [[617]  Merge Two Binary Trees](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%90%9C%E7%B4%A2/MergeTrees_617.java)
-- [[530]  Minimum Absolute Difference in BST](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%90%9C%E7%B4%A2/MinimumAbsoluteDifferenceinBST_530.java)
-- [[116]  Populating Next Right Pointers in Each Node](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%90%9C%E7%B4%A2/PopulatingNextRightPointersinEachNode_116.java)
-- [[700]  Search in a Binary Search Tree](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%90%9C%E7%B4%A2/SearchBST_700.java)
-
-### 二叉树的构造
-- [[108]  Convert Sorted Array to Binary Search Tree](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/构造/ConvertSortedArrayBinarySearchTree_108.java)
-
-
-### 二叉树的性质
-- [[669]  Trim a Binary Search Tree](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%80%A7%E8%B4%A8/TrimBinarySearchTree_669.java)
-
-## 分治
-- [[241]  Different Ways to Add Parentheses](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%88%86%E6%B2%BB/DiffWaysToCompute_241.java)
-
-## 动态规划
-
-### GameDP
-- [[198]  House Robber](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/GameDP/HouseRobber_198.java)
-- [[486]  Predict the Winner](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/GameDP/PredicttheWinner_486.java)
-
-### MatrixDP
-- [[64]  Minimum Path Sum](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/MatrixDP/MinimumPathSum_64.java)
-- [[120]  Triangle](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/MatrixDP/Triangle_120.java)
-- [[62]  Unique Paths](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/MatrixDP/UniquePaths_62.java)
-- [[63]  Unique Paths II](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/MatrixDP/UniquePathsII_63.java)
-
-### SequenceDP
-- [[70]  Climbing Stairs](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/SequenceDP/ClimbStairs_70.java)
-- [[55]  Jump Game](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/SequenceDP/JumpGame_55.java)
-- [[300]  Longest Increasing Subsequence](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/SequenceDP/LongestIncreasingSubsequence_300.java)
-
-### TwoSequenceDP
-- [[72]  Edit Distance](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/TwoSequencesDP/EditDistance_72.java)
-- [[77]  Combinations](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/TwoSequencesDP/LongestCommonSubsequence_77.java)
-
-### 背包问题
-- [[416] Partition Equal Subset Sum](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/背包问题/PartitionEqualSubsetSum_416.java)
-- [[322] Coin Change](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/背包问题/CoinChange_322.java)
-
 
 
 ## 双指针
 - [[633]  Sum of Square Numbers ](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8F%8C%E6%8C%87%E9%92%88/JudgeSquareSum_633.java)
+
+
+## kSum
+- [[1]  Two Sum](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/kSum/TwoSum_1.java)
+- [[15]  3Sum](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/kSum/ThreeSum_15.java)
+- [[16]  3Sum Closest](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/kSum/ThreeSumClosest_16.java)
+
 
 ## 哈希表
 - [[575]  Distribute Candies ](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%93%88%E5%B8%8C%E8%A1%A8/DistributeCandies_575.java)
@@ -91,9 +70,6 @@
 - [[771]  Jewels and Stones](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%93%88%E5%B8%8C%E8%A1%A8/NumJewelsInStones_771.java)
 - [[884]  Uncommon Words from Two Sentences](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%93%88%E5%B8%8C%E8%A1%A8/UncommonWordsfromTwoSentences_884.java)
 
-## 回溯
-- [[401]  Binary Watch](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%9B%9E%E6%BA%AF/BinaryWatch_401.java)
-- [[784]  Letter Case Permutation ](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%9B%9E%E6%BA%AF/LetterCasePermutation_784.java)
 
 ## 字典树
 - [[211]  Add and Search Word - Data structure design](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%AD%97%E5%85%B8%E6%A0%91/AddSearchWord_211.java)
@@ -152,22 +128,7 @@
 - [[71]   Simplify Path](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%A0%88/SimplifyPath_71.java)
 - [[20]   Valid Parentheses](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%A0%88/ValidParentheses_20.java)
 
-## 深度优先搜索
-- [[690]  Employee Importance](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/EmployeeImportance_690.java)
-- [[897]  Increasing Order Search Tree](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/IncreasingOrderSearchTree_897.java)
-- [[872]  Leaf-Similar Trees](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/LeafSimilar_872.java)
-- [[542]  01 Matrix](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/Matrix_542.java)
-- [[104]  Maximum Depth of Binary Tree](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/MaximumDepthofBinaryTree_104.java)
-- [[46]   Permutations](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/Permutations_46.java)
-- [[590]  N-ary Tree Postorder Traversal](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/TreePostorderTraversal_590.java)
-- [[589]  N-ary Tree Preorder Traversal](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/TreePreorderTraversal_589.java)
 
-## 贪心
-- [[455]  Assign Cookies](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E8%B4%AA%E5%BF%83/FindContentChildren_455.java)
-- [[392]  Is Subsequence](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E8%B4%AA%E5%BF%83/IsSubsequence_392.java)
-- [[452]  Minimum Number of Arrows to Burst Balloons ](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E8%B4%AA%E5%BF%83/MinimumNumberofArrowstoBurstBalloons_452.java)
-- [[435]  Non-overlapping Intervals](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E8%B4%AA%E5%BF%83/NonOverlappingIntervals_435.java)
-- [[406]  Queue Reconstruction by Height](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E8%B4%AA%E5%BF%83/ReconstructQueue_406.java)
 
 ## 链表
 
@@ -187,9 +148,95 @@
 
 
 
-## kSum
-- [[1]  Two Sum](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/kSum/TwoSum_1.java)
-- [[15]  3Sum](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/kSum/ThreeSum_15.java)
-- [[16]  3Sum Closest](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/kSum/ThreeSumClosest_16.java)
+
+## 二叉树
+
+### 二叉树的遍历
+- [[144]  Binary Tree Preorder Traversal](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E9%81%8D%E5%8E%86/BinaryTreePreorderTraversal_144.java)
+- [[94]  Binary Tree Inorder Traversal](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E9%81%8D%E5%8E%86/BinaryTreeInorderTraversal_94.java)
+- [[145]  Binary Tree Postorder Traversal](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E9%81%8D%E5%8E%86/BinaryTreePostorderTraversal_145.java)
+
+### 二叉树的层序遍历
+- [[102]  Binary Tree Level Order Traversal](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86/BinaryTreeLevelOrderTraversal_102.java)
+- [[107]  Binary Tree Level Order Traversal II](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86/BinaryTreeLevelOrderTraversalII_107.java)
+- [[103]  Binary Tree Zigzag Level Order Traversal](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86/BinaryTreeZigzagLevelOrderTraversal_103.java)
+- [[429]  N-ary Tree Level Order Traversal](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86/NaryTreeLevelOrderTraversal_429.java)
+
+### 二叉树的路径
+- [[124]  Binary Tree Maximum Path Sum](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E8%B7%AF%E5%BE%84/BinaryTreeMaximumPathSum_124.java)
+
+### 二叉树的搜索
+
+- [[623]  Add One Row to Tree](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%90%9C%E7%B4%A2/AddOneRowtoTree_623.java)
+- [[637]  Average of Levels in Binary Tree](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%90%9C%E7%B4%A2/AverageofLevelsinBinaryTree_637.java)
+- [[199]  Binary Tree Right Side View](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%90%9C%E7%B4%A2/BinaryTreeRightSideView_199.java)
+- [[513]  Find Bottom Left Tree Value](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%90%9C%E7%B4%A2/FindBottomLeftTreeValue_513.java)
+- [[515]  Find Largest Value in Each Tree Row](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%90%9C%E7%B4%A2/FindLargestValueinEachTreeRow_515.java)
+- [[236]  Lowest Common Ancestor of a Binary Tree](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%90%9C%E7%B4%A2/LowestCommonAncestorofBinaryTree_236.java)
+- [[617]  Merge Two Binary Trees](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%90%9C%E7%B4%A2/MergeTrees_617.java)
+- [[530]  Minimum Absolute Difference in BST](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%90%9C%E7%B4%A2/MinimumAbsoluteDifferenceinBST_530.java)
+- [[116]  Populating Next Right Pointers in Each Node](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%90%9C%E7%B4%A2/PopulatingNextRightPointersinEachNode_116.java)
+- [[700]  Search in a Binary Search Tree](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%90%9C%E7%B4%A2/SearchBST_700.java)
+
+### 二叉树的构造
+- [[108]  Convert Sorted Array to Binary Search Tree](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/构造/ConvertSortedArrayBinarySearchTree_108.java)
+
+
+### 二叉树的性质
+- [[669]  Trim a Binary Search Tree](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%80%A7%E8%B4%A8/TrimBinarySearchTree_669.java)
+
+
+
+## 深度优先搜索
+- [[690]  Employee Importance](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/EmployeeImportance_690.java)
+- [[897]  Increasing Order Search Tree](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/IncreasingOrderSearchTree_897.java)
+- [[872]  Leaf-Similar Trees](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/LeafSimilar_872.java)
+- [[542]  01 Matrix](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/Matrix_542.java)
+- [[104]  Maximum Depth of Binary Tree](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/MaximumDepthofBinaryTree_104.java)
+- [[46]   Permutations](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/Permutations_46.java)
+- [[590]  N-ary Tree Postorder Traversal](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/TreePostorderTraversal_590.java)
+- [[589]  N-ary Tree Preorder Traversal](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/TreePreorderTraversal_589.java)
+
+## 贪心
+- [[455]  Assign Cookies](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E8%B4%AA%E5%BF%83/FindContentChildren_455.java)
+- [[392]  Is Subsequence](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E8%B4%AA%E5%BF%83/IsSubsequence_392.java)
+- [[452]  Minimum Number of Arrows to Burst Balloons ](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E8%B4%AA%E5%BF%83/MinimumNumberofArrowstoBurstBalloons_452.java)
+- [[435]  Non-overlapping Intervals](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E8%B4%AA%E5%BF%83/NonOverlappingIntervals_435.java)
+- [[406]  Queue Reconstruction by Height](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E8%B4%AA%E5%BF%83/ReconstructQueue_406.java)
+
+
+## 回溯
+- [[401]  Binary Watch](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%9B%9E%E6%BA%AF/BinaryWatch_401.java)
+- [[784]  Letter Case Permutation ](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%9B%9E%E6%BA%AF/LetterCasePermutation_784.java)
+
+
+## 分治
+- [[241]  Different Ways to Add Parentheses](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%88%86%E6%B2%BB/DiffWaysToCompute_241.java)
+
+## 动态规划
+
+### GameDP
+- [[198]  House Robber](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/GameDP/HouseRobber_198.java)
+- [[486]  Predict the Winner](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/GameDP/PredicttheWinner_486.java)
+
+### MatrixDP
+- [[64]  Minimum Path Sum](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/MatrixDP/MinimumPathSum_64.java)
+- [[120]  Triangle](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/MatrixDP/Triangle_120.java)
+- [[62]  Unique Paths](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/MatrixDP/UniquePaths_62.java)
+- [[63]  Unique Paths II](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/MatrixDP/UniquePathsII_63.java)
+
+### SequenceDP
+- [[70]  Climbing Stairs](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/SequenceDP/ClimbStairs_70.java)
+- [[55]  Jump Game](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/SequenceDP/JumpGame_55.java)
+- [[300]  Longest Increasing Subsequence](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/SequenceDP/LongestIncreasingSubsequence_300.java)
+
+### TwoSequenceDP
+- [[72]  Edit Distance](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/TwoSequencesDP/EditDistance_72.java)
+- [[77]  Combinations](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/TwoSequencesDP/LongestCommonSubsequence_77.java)
+
+### 背包问题
+- [[416] Partition Equal Subset Sum](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/背包问题/PartitionEqualSubsetSum_416.java)
+- [[322] Coin Change](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/背包问题/CoinChange_322.java)
+
 
 
