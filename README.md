@@ -61,6 +61,9 @@
 
 ## 双指针
 - [[633]  Sum of Square Numbers ](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8F%8C%E6%8C%87%E9%92%88/JudgeSquareSum_633.java)
+- [[11]  Container With Most Water ](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8F%8C%E6%8C%87%E9%92%88/ContainerWithMostWater_11.java)
+- [[26]  Remove Duplicates from Sorted Array](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8F%8C%E6%8C%87%E9%92%88/RemoveDuplicatesfromSortedArray_26.java)
+- [[27]  Remove Element ](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8F%8C%E6%8C%87%E9%92%88/RemoveElement_27.java)
 
 
 ## kSum
@@ -86,6 +89,8 @@
 - [[821]  Shortest Distance to a Character](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%AD%97%E7%AC%A6%E4%B8%B2/ShortestToChar_821.java)
 - [[709]  To Lower Case](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%AD%97%E7%AC%A6%E4%B8%B2/ToLowerCase_709.java)
 - [[804]  Unique Morse Code Words](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%AD%97%E7%AC%A6%E4%B8%B2/UniqueMorseRepresentations_804.java)
+- [[3]  Longest Substring Without Repeating Characters](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%AD%97%E7%AC%A6%E4%B8%B2/LongestSubstringWithoutRepeatingCharacters_3.java)
+
 
 ## 尺取法
 - [[209]  Minimum Size Subarray Sum](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%B0%BA%E5%8F%96%E6%B3%95/MinSubArrayLen_209.java)

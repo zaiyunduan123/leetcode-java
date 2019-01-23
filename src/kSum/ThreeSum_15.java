@@ -16,7 +16,13 @@ public class ThreeSum_15 {
     List<List<Integer>> ret = new ArrayList<List<Integer>>();
 
     /**
-     * 思路：排序 + 左右夹逼
+     * 这题相比2SUM多了几个难点：
+     *
+     * 1. 数组里允许重复的数
+     * 2. 结果要按升序排列
+     * 3. 结果中不能出现重复的结
+     *
+     * 思路：排序 + 左右夹逼，注意过滤重复项
      */
     public List<List<Integer>> threeSum(int[] nums) {
 
