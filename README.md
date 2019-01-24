@@ -144,12 +144,15 @@
 
 ### 链表删除
 - [[237]  Delete Node in a Linked List](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E9%93%BE%E8%A1%A8/%E5%88%A0%E9%99%A4/DeleteNodeInLinkedList_237.java)
+- [[19]  Remove Nth Node From End of List](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E9%93%BE%E8%A1%A8/%E5%88%A0%E9%99%A4/RemoveNthNodeFromEndofList_19.java)
+
 
 ### 链表反转
 - [[77]  Combinations](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E9%93%BE%E8%A1%A8/%E5%8F%8D%E8%BD%AC/ReverseList_77.java)
 - [[24]  Swap Nodes in Pairs](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E9%93%BE%E8%A1%A8/%E5%8F%8D%E8%BD%AC/SwapNodesinPairs_24.java)
 
 ### 链表合并
+- [[2]  Add Two Numbers](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E9%93%BE%E8%A1%A8/%E5%90%88%E5%B9%B6/AddTwoNumbers_2.java)
 - [[160]   Intersection of Two Linked Lists](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E9%93%BE%E8%A1%A8/%E5%90%88%E5%B9%B6/GetIntersectionNode_160.java)
 - [[21]  Merge Two Sorted Lists](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E9%93%BE%E8%A1%A8/%E5%90%88%E5%B9%B6/MergeTwoLists_21.java)
 
