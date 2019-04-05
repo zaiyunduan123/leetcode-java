@@ -64,6 +64,7 @@
 - [[11]  Container With Most Water ](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8F%8C%E6%8C%87%E9%92%88/ContainerWithMostWater_11.java)
 - [[26]  Remove Duplicates from Sorted Array](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8F%8C%E6%8C%87%E9%92%88/RemoveDuplicatesfromSortedArray_26.java)
 - [[27]  Remove Element ](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8F%8C%E6%8C%87%E9%92%88/RemoveElement_27.java)
+- [[88]  Merge Sorted Array ](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8F%8C%E6%8C%87%E9%92%88/MergeSortedArray_88.java)
 
 
 ## kSum
@@ -113,6 +114,11 @@
 - [[461]  Hamming Distance](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%95%B0%E5%AD%A6/HammingDistance_461.java)
 - [[476]  Number Complement](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%95%B0%E5%AD%A6/NumberComplement_476.java)
 - [[728]  Self Dividing Numbers](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%95%B0%E5%AD%A6/SelfDividingNumbers_728.java)
+- [[67]  Add Binary](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%95%B0%E5%AD%A6/AddBinary_67.java)
+- [[9]  Palindrome Number](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%95%B0%E5%AD%A6/PalindromeNumber_9.java)
+- [[7]  Reverse Integer](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%95%B0%E5%AD%A6/ReverseInteger_7.java)
+
+
 
 ## 数组
 - [[717]  1-bit and 2-bit Characters](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%95%B0%E7%BB%84/BitAnd2bitCharacters_717.java)
@@ -124,6 +130,9 @@
 - [[922]  Sort Array By Parity II](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%95%B0%E7%BB%84/SortArrayByParityII_922.java)
 - [[766]  Toeplitz Matrix](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%95%B0%E7%BB%84/ToeplitzMatrix_766.java)
 - [[867]  Transpose Matrix](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%95%B0%E7%BB%84/Transpose_867.java)
+- [[66]   Plus One](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%95%B0%E7%BB%84/PlusOne_66.java)
+- [[1]   Two Sum](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%95%B0%E7%BB%84/TwoSum_1.java)
+
 
 ## 栈
 - [[844]  Backspace String Compare](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E6%A0%88/BackspaceStringCompare_844.java)
@@ -246,6 +255,7 @@
 ### TwoSequenceDP
 - [[72]  Edit Distance](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/TwoSequencesDP/EditDistance_72.java)
 - [[77]  Combinations](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/TwoSequencesDP/LongestCommonSubsequence_77.java)
+- [[53]  Maximum Subarray](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/TwoSequencesDP/MaximumSubarray_53.java)
 
 ### 背包问题
 - [[416] Partition Equal Subset Sum](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/背包问题/PartitionEqualSubsetSum_416.java)
