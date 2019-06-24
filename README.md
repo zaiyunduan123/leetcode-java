@@ -91,6 +91,9 @@
 - [[709]  To Lower Case](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%AD%97%E7%AC%A6%E4%B8%B2/ToLowerCase_709.java)
 - [[804]  Unique Morse Code Words](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%AD%97%E7%AC%A6%E4%B8%B2/UniqueMorseRepresentations_804.java)
 - [[3]  Longest Substring Without Repeating Characters](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%AD%97%E7%AC%A6%E4%B8%B2/LongestSubstringWithoutRepeatingCharacters_3.java)
+- [[14] Longest Common Prefix](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%AD%97%E7%AC%A6%E4%B8%B2/LongestCommonPrefix_14.java)
+- [[13]  Roman to Integer](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E5%AD%97%E7%AC%A6%E4%B8%B2/RomanToInt_13.java)
+
 
 
 ## 尺取法
@@ -206,6 +209,7 @@
 
 ### 二叉树的性质
 - [[669]  Trim a Binary Search Tree](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%80%A7%E8%B4%A8/TrimBinarySearchTree_669.java)
+- [[110]  Balanced Binary Tree    ](https://github.com/zaiyunduan123/leetcode-java/blob/master/src/%E4%BA%8C%E5%8F%89%E6%A0%91/%E6%80%A7%E8%B4%A8/BalanceTree_110.java)
 
 
 
